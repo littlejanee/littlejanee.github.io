@@ -6,7 +6,6 @@
 
 p,
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -18,6 +17,20 @@ span,
 strong {
   color: var(--global-text-color);
 }
+
+.me {
+  color: var(--global-theme-color);
+  background-color: var(--global-light-color);
+}
+
+h2 {
+  color: var(--global-mid-color);
+  margin-top: 50px !important;
+  display: table;
+  font-weight: bold;
+}
+
+
 
 hr {
   border-top: 1px solid var(--global-divider-color);
@@ -40,7 +53,7 @@ table.table a {
 
   &:hover {
     color: var(--global-theme-color);
-    text-decoration: underline;
+    background-color: var(--global-light-color);
   }
 
   &:hover:after :not(.nav-item.dropdown) {
@@ -196,7 +209,19 @@ blockquote {
 }
 
 .profile.float-left {
-  margin-right: 1rem;
+  margin-right: 2rem;
+}
+
+.profile_text {
+  padding-top: 20px !important;
+}
+
+.profile_base {
+  padding-top: 20px !important;
+}
+
+.clearfix {
+  padding-top: 30px !important;
 }
 
 @media (min-width: 576px) {
@@ -632,7 +657,7 @@ footer.sticky-bottom {
     color: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
-    margin-top: 2rem;
+    margin-top: rem;
     margin-bottom: 1rem;
     text-align: right;
   }
@@ -816,11 +841,21 @@ footer.sticky-bottom {
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;
+
+  .nc,
+  .s {
+    color: var(--global-dark-color);
+  }
+
+  .nl,
+  .na {
+    color: var(--global-theme-color);
+  }
 }
 
 pre {
   color: var(--global-theme-color);
-  background-color: var(--global-code-bg-color);
+  background-color: var(--global-light-color);
   border-radius: 6px;
   padding: 6px 12px;
 

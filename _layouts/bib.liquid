@@ -38,59 +38,51 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-12{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
 
-      {% assign author_array_limit = author_array_size %}
-      {% if site.max_author_limit and author_array_size > site.max_author_limit %}
-        {% assign author_array_limit = site.max_author_limit %}
-      {% endif %}
-
-      {% for author in entry.author_array limit: author_array_limit %}
-        {% assign author_is_self = false %}
-        {% assign author_last_name = author.last | remove: '¶' | remove: '&' | remove: '*' | remove: '†' | remove: '^' %}
-        {% if site.scholar.last_name contains author_last_name %}
-          {% if site.scholar.first_name contains author.first %}
-            {% assign author_is_self = true %}
-          {% endif %}
-        {% endif %}
-        {% assign coauthor_url = null %}
-        {% assign clean_last_name = author_last_name | downcase | remove_accents %}
-        {% if site.data.coauthors[clean_last_name] %}
-          {% for coauthor in site.data.coauthors[clean_last_name] %}
-            {% if coauthor.firstname contains author.first %}
-              {% assign coauthor_url = coauthor.url %}
-              {% break %}
-            {% endif %}
-          {% endfor %}
+        {% assign author_array_limit = author_array_size %}
+        {%- if site.max_author_limit and author_array_size > site.max_author_limit %}
+          {% assign author_array_limit = site.max_author_limit %}
         {% endif %}
 
-        {% if forloop.length > 1 %}
-          {% if forloop.first == false %},&nbsp;{% endif %}
-          {% if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif %}
-        {% endif %}
-        {% if author_is_self %}
-          <em>
-            {{- author.first }}
-            {{ author.last -}}
-          </em>
-        {% else %}
-          {% if coauthor_url %}
-            <a href="{{coauthor_url}}">
-              {{- author.first }}
-              {{ author.last -}}
-            </a>
-          {% else %}
-            {{ author.first }}
-            {{ author.last }}
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-      {% assign more_authors = author_array_size | minus: author_array_limit %}
+        {%- for author in entry.author_array limit: author_array_limit -%}
+          {%- assign author_is_self = false -%}
+          {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+          {%- if site.scholar.last_name contains author_last_name -%}
+            {%- if site.scholar.first_name contains author.first -%}
+              {%- assign author_is_self = true -%}
+            {%- endif -%}
+          {%- endif -%}
+          {%- assign coauthor_url = nil -%}
+          {%- if site.data.coauthors[author_last_name] -%}
+            {%- for coauthor in site.data.coauthors[author_last_name] -%}
+              {%- if coauthor.firstname contains author.first -%}
+                {%- assign coauthor_url = coauthor.url -%}
+                {%- break -%}
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
+
+          {%- if forloop.length > 1 -%}
+            {%- if forloop.first == false -%},&nbsp;{%- endif -%}
+            {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
+          {%- endif -%}
+          {%- if author_is_self -%}
+            <span class="me">{{author.first}} {{author.last}}</span>
+          {%- else -%}
+            {%- if coauthor_url -%}
+              <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+            {%- else -%}
+              {{author.first}} {{author.last}}
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
       {% assign more_authors_hide = more_authors | append: ' more author' %}
       {% if more_authors > 0 %}
@@ -130,11 +122,11 @@
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
-      {% capture entrytype %}<em>{{entry.journal}}</em>{% endcapture %}
+      {% capture entrytype %}<em>{{entry.venue}}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{entry.booktitle}}</em> {% endcapture %}
+      {% capture entrytype %}<em>{{entry.venue}}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
-      {% capture entrytype %}<em>{{entry.school}}</em> {% endcapture %}
+      {% capture entrytype %}<em>{{entry.school}}</em>{% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
@@ -142,10 +134,10 @@
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}
     {% if entry.year %}
-      {% capture entryyear %}{{ " " }}{{entry.year}}{% endcapture %}
+        {% capture entryyear %}{{ " " }}{{entry.year}}{% endcapture %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %} {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
@@ -181,8 +173,23 @@
           <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
         {% endif %}
       {% endif %}
+      {% if entry.demo %}
+        <a class="abstract btn btn-sm z-depth-0" role="button">Demo</a>
+      {% endif %}
       {% if entry.video %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
+      {% endif %}
+      {% if entry.short %}
+        <a class="abstract btn btn-sm z-depth-0" role="button">Preview</a>
+      {% endif %}
+      {% if entry.talk %}
+        <a class="abstract btn btn-sm z-depth-0" role="button">Talk</a>
+      {% endif %}
+      {% if entry.dissertation %}
+        <a class="abstract btn btn-sm z-depth-0" role="button">Dissertation</a>
+      {% endif %}
+      {% if entry.defense %}
+        <a class="abstract btn btn-sm z-depth-0" role="button">Defense</a>
       {% endif %}
       {% if entry.blog %}
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
