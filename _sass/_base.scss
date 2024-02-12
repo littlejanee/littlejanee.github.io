@@ -19,7 +19,7 @@ strong {
 }
 
 .me {
-  color: var(--global-theme-color);
+  color: var(--global-dark-color);
   background-color: var(--global-light-color);
 }
 
@@ -50,7 +50,7 @@ table.table a {
   color: var(--global-theme-color);
 
   &:hover {
-    color: var(--global-theme-color);
+    color: var(--global-dark-color);
     background-color: var(--global-light-color);
   }
 
@@ -215,7 +215,7 @@ blockquote {
 }
 
 .profile_base {
-  padding-top: 20px !important;
+  padding-top: 24px !important;
 }
 
 .clearfix {
@@ -315,17 +315,18 @@ blockquote {
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 
     a {
+      background-color: var(--global-bg-color);
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-mid-color);
         transition-property: all 0.2s ease-in-out;
       }
 
       &:hover {
         i::before {
-          color: var(--global-theme-color);
+          color: var(--global-light-color);
         }
       }
     }
@@ -846,7 +847,7 @@ figure.highlight {
 
   .nl,
   .na {
-    color: var(--global-theme-color);
+    color: var(--global-mid-color);
   }
 }
 
