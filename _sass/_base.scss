@@ -845,9 +845,12 @@ figure.highlight {
     color: var(--global-dark-color);
   }
 
-  .nl,
-  .na {
+  .nl {
     color: var(--global-mid-color);
+  }
+
+  .na {
+    color: var(--global-theme-color);
   }
 }
 

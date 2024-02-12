@@ -20,7 +20,7 @@ $purple-color: #7978D6 !default;
 $mid-purple-color: lighten($purple-color, 15%);
 $light-purple-color: lighten($purple-color, 30%);
 $lightest-purple-color: #EFF1FF99 !default;
-$dark-purple-color: #424385 !default;
+$dark-purple-color: darken($purple-color, 30%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
