@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: postdoc at the design lab · je [at] ucsd.edu · ejane.me
 subsubtitle: >
-  <p>I'm on the faculty job market :)
+  <p>I'm on the faculty and industry job market :)
   <br /><a href="assets/pdf/janee_research.pdf" target="_blank">research</a> · <a href="assets/pdf/janee_teaching.pdf" target="_blank">teaching</a> · <a href="assets/pdf/janee_diversity.pdf" target="_blank">diversity</a> · <a href="assets/pdf/janee_cv.pdf" target="_blank">cv</a></p>
 
 

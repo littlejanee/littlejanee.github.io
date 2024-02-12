@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited talks at UW-Madison and Stevens Institute of Technology
+Invited talks at UW-Madison CS and Stevens Institute CS
