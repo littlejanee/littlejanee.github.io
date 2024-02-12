@@ -20,7 +20,7 @@ strong {
 
 .me {
   color: var(--global-dark-color);
-  background-color: var(--global-light-color);
+  background-color: var(--global-lightest-color);
 }
 
 h2 {
@@ -853,7 +853,7 @@ figure.highlight {
 
 pre {
   color: var(--global-theme-color);
-  background-color: var(--global-light-color);
+  background-color: var(--global-lightest-color);
   border-radius: 6px;
   padding: 6px 12px;
 
