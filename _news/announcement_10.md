@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited talks at UW-Madison CS and Stevens Institute CS
+Invited talks at <a href="https://today.wisc.edu/events/view/193328" target="_blank">UW-Madison CS</a> and Stevens Institute CS
