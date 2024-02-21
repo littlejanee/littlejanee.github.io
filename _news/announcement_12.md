@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited talk at NUS Computing
+Invited talks at USC CS and NUS Computing
