@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited talks at Oregon State EECS, UVA CS, and Cornell IS Colloquium.
+Invited talks at Oregon State EECS, Tufts CS, UVA CS, and Cornell IS Colloquium.

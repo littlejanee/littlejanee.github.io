@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attended <a href="https://risingstars.utexas.edu/profiles/jane-e" target="_blank">Rising Stars 2022</a> at UT Austin
+Attended <a href="https://risingstars.utexas.edu/profiles/jane-e" target="_blank">Rising Stars in EECS 2022</a> at UT Austin
