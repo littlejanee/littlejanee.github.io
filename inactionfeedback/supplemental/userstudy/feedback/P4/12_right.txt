@@ -1,0 +1,5 @@
+weak point of entry
+arbitrary alignment of elements
+insufficient margins
+content lacks balance
+poor text legibility
