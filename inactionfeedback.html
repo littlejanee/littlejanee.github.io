@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Capture-Time Decluttering</title>
+    <title>When to Give Feedback</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css" rel="stylesheet">
@@ -23,6 +23,10 @@
         color: #7978D6;
 
         &:hover {
+          color: #7978D6;
+        }
+
+        &:visited {
           color: #7978D6;
         }
       }
@@ -76,40 +80,66 @@
   <body>
 
     <div class="container">
-        <nav>
-          <div class="col-md-2 col-md-offset-1 text-center">
+        <nav class="col-sm-offset-2">
+          <div class="col-sm-2 text-center">
             <a class="active" href="#abstract">abstract</a>
           </div>
-          <div class="col-md-2 text-center">
+          <div class="col-sm-2 text-center">
             <a href="#paper">paper</a>
           </div>
-          <div class="col-md-2 text-center">
+          <div class="col-sm-2 text-center">
             <a href="#supplementary">supplementary</a>
           </div>
-          <div class="col-md-2 text-center">
+          <div class="col-sm-2 text-center">
             <a href="#videos">videos</a>
           </div>
-          <div class="col-md-2 text-center">
+          <div class="col-sm-2 text-center">
             <a href="#bibtex">bibtex</a>
           </div>
         </nav>
 
-        <div class="titlerow">
-          <div class="col-sm-12" style="text-align:center">
+        <div class="titlerow text-center">
+          <div class="col-sm-12">
             <h1>When to Give Feedback: Exploring Tradeoffs in the Timing of Design Feedback</h1>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-4 author">
+        <div class="row col-sm-offset-2">
+          <div class="col-sm-2 author">
             <p class="lead"><a href="http://ejane.me/" class="authorname" target="_blank">Jane L. E</a><br>UCSD</p>
+          </div>
+          <div class="col-sm-2 author">
+            <p class="lead"><a href="" class="authorname" target="_blank">Yu-Chun Grace Yen</a><br>NYCU</p>
+          </div>
+          <div class="col-sm-2 author">
+            <p class="lead"><a href="" class="authorname" target="_blank">Isabelle Yan Pan</a><br>UCSD</p>
+          </div>
+          <div class="col-sm-2 author">
+            <p class="lead"><a href="" class="authorname" target="_blank">Grace Lin</a><br>UCSD</p>
+          </div>
+          <div class="col-sm-2 author">
+            <p class="lead"><a href="" class="authorname" target="_blank">Mingyi Li</a><br>UCSD</p>
+          </div>
+        </div>
+        <div class="row col-sm-offset-3">
+          <div class="col-sm-2 author">
+            <p class="lead"><a href="" class="authorname" target="_blank">Hyoungwook Jin</a><br>KAIST</p>
+          </div>
+          <div class="col-sm-2 author">
+            <p class="lead"><a href="" class="authorname" target="_blank">Mengyi Chen</a><br>UCSD</p>
+          </div>
+          <div class="col-sm-2 author">
+            <p class="lead"><a href="" class="authorname" target="_blank">Haijun Xia</a><br>UCSD</p>
+          </div>
+          <div class="col-sm-2 author">
+            <p class="lead"><a href="" class="authorname" target="_blank">Steven P. Dow</a><br>UCSD</p>
           </div>
         </div>
 
         <div class="row">
           <div class="col-sm-12">
             <p class="lead caption">
-              <!--img src="assets/img/inactionfeedback-teaser.png" width="100%"-->
-              <span class="keyword">Figure 1.</span> TBD
+              <img src="inactionfeedback/inactionfeedback-teaser.png" width="100%">
+              <span class="keyword">Figure 1.</span> Inspired by Sch&#246n's distinction between reflection-in-action and reflection-on-action, this paper investigates two timing conditions for feedback within the context of a single design session: <b>in-action feedback</b> available <i>throughout</i> the design session (top) and the more commonly available <b>on-action feedback</b> on an completed design draft <i>after</i> the current design session (bottom). Here we diagram the flow of our two conditions (left) and summarize our main study findings (left).
             </p>
           </div>
         </div>
@@ -118,52 +148,45 @@
           <div class="col-sm-12">
             <h3>Abstract</h3>
             <p class="lead abstract">
-              TBD
+              Advances in AI have opened up the potential for creativity tools to computationally generate design feedback. In a future when designers can request feedback anytime on demand, how would the timing of these requests impact novices’ creative learning processes? What are the tradeoffs of providing access to feedback <i>throughout</i> a design task (<b>in-action feedback</b>) versus only providing feedback <i>after</i> (<b>on-action feedback</b>)? We explored these questions through a Wizard-of-Oz study (N=20) using an interactive design probe, where participants could request feedback either throughout the design process or only after they complete a full draft. We found that in-action participants frequently request feedback, resulting in better improvements as indicated by a greater decrease in issues in their final design. However, we saw that in-action feedback can also risk users overly relying on feedback instead of engaging in more holistic self-evaluation. We discuss the implications of our insights on designing tools for creative feedback.
             </p>
           </div>
         </div>
 
         <div id="paper">
           <h3>Paper &nbsp;
-            TBD
-            <!--a href="e_declutter_uist21.pdf" class="headinglink"> PDF</a-->
+            <a href="assets/pdf/papers/e2024timing_preprint.pdf" class="headinglink"> Preprint PDF</a>
           </h3>
         </div>
 
         <div id="supplementary">
           <h3>Supplementary Material &nbsp;
-            <a href="inactionfeedback/supplemental/supplemental.zip" class="headinglink" download> Download All (User Study Materials and Feedback Template)</a>
-            <div class="supplemental">
-              <div class="row">
-                <div class="text-center">
-                  <!--img src="supplemental/studytasks.png" height="200px"><br-->
-                  <a href="inactionfeedback/supplemental/userstudy/userstudy.html" class="headinglink"> User Study Photos</a>
-                </div>
-              </div>
-            </div>
+            <a href="inactionfeedback/supplemental.zip" class="headinglink" download> Download All</a> | 
+            <a href="inactionfeedback/supplemental/userstudy/userstudy.html" class="headinglink"> User Study Designs</a> | 
+            <a href="inactionfeedback/supplemental/feedbacktemplate/design principles - template.pdf" class="headinglink"> Feedback Template</a> | 
+            <a href="" class="headinglink"> Code (TBD)</a>
           </h3>
         </div>
 
         <div id="videos">
           <h3>Video &nbsp;
-            TBD
-            <!--a href="https://www.youtube.com/watch?v=33Z8kJbZeX4" class="headinglink" target="_blank"> Figure</a> | 
-            <a href="https://www.youtube.com/watch?v=za_Gw10aLQA" class="headinglink" target="_blank"> Preview</a> | 
-            <a href="https://www.youtube.com/watch?v=7VmF5TemWEE" class="headinglink" target="_blank"> Presentation</a-->
+            <a href="https://youtu.be/TzlrcbVO2Qg" class="headinglink" target="_blank"> Figure</a> 
           </h3>
           </br>
-          <!--style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border: 1px solid #000000;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://www.youtube.com/embed/33Z8kJbZeX4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div-->
+          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border: 1px solid #000000;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://www.youtube.com/embed/TzlrcbVO2Qg?si=lvbZfytGx6HLKZj9" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></di>
         </div>
 
         <div id="bibtex">
           <h3>Bibtex</h3>
             <pre class="id">
 @inproceedings{e2024when,
-    title={When to Give Feedback: Exploring Tradeoffs in the Timing of Design Feedback},
+    author = {E, Jane L. and Yen, Yu-Chun Grace and Pan, Isabelle Yan and Lin, Grace and Li, Mingyi and Jin, Hyoungwook and Chen, Mengyi and Xia, Haijun and Dow, Steven P.},
+    title = {When to Give Feedback: Exploring Tradeoffs in the Timing of Design Feedback},
+    doi = {TBD},
+    url = {TBD},
+    venue = {Creativity & Cognition},
+    year = {2024},
 }</pre>
-<!--     url = {https://dl.acm.org/doi/10.1145/3313831.3376635},
-    doi = {10.1145/3313831.3376635},
-    pages={1--13}, -->
         </div>
     </div>
 
