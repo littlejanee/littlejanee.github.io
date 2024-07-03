@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  <p>[upcoming] stanford hai postdoc, nus assistant professor
+  <p>[incoming] stanford hai postdoc, nus assistant professor
   <br \>je [at] ucsd.edu · ejane.me · <a href="assets/pdf/janee_cv.pdf" target="_blank">cv</a></p>
 subsubtitle: >
   <p>materials from my 2023-2024 job search:
@@ -22,7 +22,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-\[**next**\] I will be starting at [NUS Computing](https://www.comp.nus.edu.sg) as an Assistant Professor in Fall 2025 and will be recruiting students in the upcoming year. Prior to that, I will be postdocing at [Stanford HAI](https://hai.stanford.edu), mentored by my PhD advisor [James Landay](https://www.landay.org/), while starting as an Adjunct Professor at NUS and an affiliate with the [Smart Systems Institute](https://ssi.nus.edu.sg/).
+\[**next**\] I will be starting at [NUS Computing](https://www.comp.nus.edu.sg) as an Assistant Professor in Fall 2025 and will be **recruiting PhD students** in the upcoming year (please reach out if you might be interested)! Prior to that, I will be postdocing at [Stanford HAI](https://hai.stanford.edu), mentored by my PhD advisor [James Landay](https://www.landay.org/), while starting as an Adjunct Professor at NUS and an affiliate with the [Smart Systems Institute](https://ssi.nus.edu.sg/).
 
 \[**past**\] I just finished my postdoc at [The Design Lab @ UCSD](https://designlab.ucsd.edu/meet-member-of-postdoctoral-fellowship-programs-debut-cohort-jane-e/) as part of the debut cohort of [UCSD CSE’s Postdoctoral Fellows Program](https://twitter.com/ucsd_cse/status/1352343609417166849), where I was mentored by [Haijun Xia](https://creativity.ucsd.edu/) and [Steven Dow](https://protolab.ucsd.edu/). Prior to that, I graduated from Stanford University with a PhD in Computer Science where I was coadvised by [James Landay](https://www.landay.org/) and [Pat Hanrahan](http://graphics.stanford.edu/~hanrahan/).
 
