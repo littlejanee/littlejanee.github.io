@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: >
   <p>[incoming] stanford hai postdoc, nus assistant professor
-  <br \>je [at] ucsd.edu · ejane.me · <a href="assets/pdf/janee_cv.pdf" target="_blank">cv</a></p>
+  <br \>ejane [at] cs.stanford.edu · ejane.me · <a href="assets/pdf/janee_cv.pdf" target="_blank">cv</a></p>
 subsubtitle: >
   <p>materials from my 2023-2024 job search:
   <br /><a href="assets/pdf/janee_research.pdf" target="_blank">research</a> · <a href="assets/pdf/janee_teaching.pdf" target="_blank">teaching</a> · <a href="assets/pdf/janee_diversity.pdf" target="_blank">diversity</a> · <a href="assets/pdf/janee_cv_job.pdf" target="_blank">cv</a></p>
