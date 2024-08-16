@@ -26,7 +26,7 @@ social: false # includes social icons at the bottom of the page
 
 \[**past**\] I just finished my postdoc at [The Design Lab @ UCSD](https://designlab.ucsd.edu/meet-member-of-postdoctoral-fellowship-programs-debut-cohort-jane-e/) as part of the debut cohort of [UCSD CSE’s Postdoctoral Fellows Program](https://twitter.com/ucsd_cse/status/1352343609417166849), where I was mentored by [Haijun Xia](https://creativity.ucsd.edu/) and [Steven Dow](https://protolab.ucsd.edu/). Prior to that, I graduated from Stanford University with a PhD in Computer Science where I was coadvised by [James Landay](https://www.landay.org/) and [Pat Hanrahan](http://graphics.stanford.edu/~hanrahan/).
 
-\[**research**\] My research lies primarily at the intersection of human computer interaction and computer graphics. Broadly, I'm interested in thinking about how to design computational tools that can support users in developing domain expertise, which I currently explore within the domain of creativity. My work takes inspiration from cognitive science and education theory to design computational tools that scaffold novices’ creative processes. Inspired by how expert artists have trained their eyes to "see" in a certain way, I aim to design guidance that helps novices develop their own "artistic vision"---and in doing so, support them in developing their own artistic expertise.
+\[**research**\] My research lies primarily at the intersection of human computer interaction, computer graphics, and AI. Broadly, I'm interested in thinking about how to design computational tools that can support users in developing domain expertise, which I currently explore within the domain of creativity. My work takes inspiration from cognitive science and education theory to design computational tools that scaffold novices’ creative processes. Inspired by how expert artists have trained their eyes to "see" in a certain way, I aim to design guidance that helps novices develop their own "artistic vision"---and in doing so, support them in developing their own artistic expertise.
 
 <!--More specifically, my dissertation work focused on photography and videography interfaces. I designed in-camera guidance interfaces that can help users be more aware of their artistic choices. During my postdoc, I am more directly exploring the impact of computational feedback on creativity to inform the design of such creativity support tools. 
 
@@ -37,7 +37,7 @@ Broadly I am interested in using computation to provide scaffolding that can enc
 I graduated in June 2012 from Princeton University with a Bachelors in Computer Science and a Certificate in Applied and Computational Mathematics. After college, I worked as a Software Development Engineer for two years on the Photos and Videos (Apps for Creative Expressions) team at Microsoft. -->
 
 
-\[**other**\] On the side, I am a dancer 🩰 and a photo enthusiast 📷. I am a foodie 🍛 and also a lover of fitness 🤸🏻‍♀️.
+\[**other**\] On the side, I am a dancer 🩰, a photo enthusiast 📷, a foodie 🍛, and a lover of fitness 🤸🏻‍♀️.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
