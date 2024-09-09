@@ -24,7 +24,7 @@ social: false # includes social icons at the bottom of the page
 
 \[**current**\] I am a postdoc at [Stanford HAI](https://hai.stanford.edu/people/jane-e), mentored by my PhD advisor [James Landay](https://www.landay.org/), and starting as an Adjunct Professor at NUS as an affiliate with the [Smart Systems Institute](https://ssi.nus.edu.sg/).
 
-\[**next**\] I will be starting at [NUS Computing](https://www.comp.nus.edu.sg) as an Assistant Professor in Fall 2025 and am **recruiting PhD students** in the upcoming year (please reach out if you might be interested)!
+\[**next**\] I will be starting at [NUS Computing](https://www.comp.nus.edu.sg) as an Assistant Professor in Fall 2025 and am [recruiting PhD students](https://www.comp.nus.edu.sg/programmes/pg/phdcs/) in the upcoming year (**please reach out if you might be interested**)!
 
 \[**past**\] I just finished my postdoc at [The Design Lab @ UCSD](https://designlab.ucsd.edu/meet-member-of-postdoctoral-fellowship-programs-debut-cohort-jane-e/) as part of the debut cohort of [UCSD CSE’s Postdoctoral Fellows Program](https://twitter.com/ucsd_cse/status/1352343609417166849), where I was mentored by [Haijun Xia](https://creativity.ucsd.edu/) and [Steven Dow](https://protolab.ucsd.edu/). Prior to that, I graduated from Stanford University with a PhD in Computer Science where I was coadvised by [James Landay](https://www.landay.org/) and [Pat Hanrahan](http://graphics.stanford.edu/~hanrahan/).
 
