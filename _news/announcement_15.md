@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I presented our work "When to Give Feedback: Exploring Tradeoffs in the Timing of Design Feedback" at C&C 2024. I additionally session chaired the Co-Creation paper session and helped lead the DEI Panel.
+Presented our work "When to Give Feedback: Exploring Tradeoffs in the Timing of Design Feedback" at C&C 2024. I additionally session chaired the Co-Creation paper session and helped lead the DEI Panel.
