@@ -187,7 +187,7 @@
       {% endif %}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}
-          <a href="{{ entry.supp }}" target="_blank" class="btn btn-sm z-depth-0" role="button">Supp</a>
+          <a href="{{ entry.supp }}" target="_blank" class="btn btn-sm z-depth-0" role="button">Supplemental</a>
         {% else %}
           <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" target="_blank" class="btn btn-sm z-depth-0" role="button">Supp</a>
         {% endif %}
@@ -229,6 +229,20 @@
       {% endif %}
       {% if entry.website %}
         <a href="{{ entry.website }}" target="_blank" class="btn btn-sm z-depth-0" role="button">Website</a>
+      {% endif %}
+      {% if entry.ds %}
+        {% if entry.ds contains '://' %}
+          <a href="{{ entry.ds }}" target="_blank" class="btn btn-sm z-depth-0" role="button">DS (UIST18)</a>
+        {% else %}
+          <a href="{{ entry.ds | prepend: '/assets/pdf/' | relative_url }}" target="_blank" class="btn btn-sm z-depth-0" role="button">DS (UIST18)</a>
+        {% endif %}
+      {% endif %}
+      {% if entry.gss %}
+        {% if entry.gss contains '://' %}
+          <a href="{{ entry.gss }}" target="_blank" class="btn btn-sm z-depth-0" role="button">GSS (C&C19)</a>
+        {% else %}
+          <a href="{{ entry.gss | prepend: '/assets/pdf/' | relative_url }}" target="_blank" class="btn btn-sm z-depth-0" role="button">GSS (C&C19)</a>
+        {% endif %}
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}
