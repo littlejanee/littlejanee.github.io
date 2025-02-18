@@ -6,7 +6,7 @@ subtitle: >
   <p>stanford hai postdoc, [incoming] nus assistant professor
   <br \>ejane [at] stanford.edu · <a href="https://ejane.me/" target="_blank">ejane.me</a> · <a href="assets/pdf/janee_cv.pdf" target="_blank">cv</a></p>
 subsubtitle: >
-  <p>materials from my 2023-2024 job search:
+  <p>materials from my 2023–2024 job search:
   <br /><a href="assets/pdf/janee_research.pdf" target="_blank">research</a> · <a href="assets/pdf/janee_teaching.pdf" target="_blank">teaching</a> · <a href="assets/pdf/janee_diversity.pdf" target="_blank">diversity</a> · <a href="assets/pdf/janee_cv_job.pdf" target="_blank">cv</a></p>
 
 
