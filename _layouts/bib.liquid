@@ -301,7 +301,8 @@
       <!-- Hidden bibtex block -->
       <div class="bibtex hidden">
         {% highlight bibtex %}
-        {{- entry.bibtex | hideCustomBibtex -}}
+        {% assign edit_bibtext= entry.bibtex | remove: "*" %}
+        {{- edit_bibtext | hideCustomBibtex -}}
         {% endhighlight %}
       </div>
     {% endif %}
