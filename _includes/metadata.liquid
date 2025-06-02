@@ -116,6 +116,10 @@
     {% capture link %}https://github.com/{{ site.github_username }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
+  {% if site.bluesky_username %}
+    {% capture link %}https://bsky.app/profile/{{ site.bluesky_username }}.bsky.social{% endcapture %}
+    {% assign sameaslinks = sameaslinks | push: link %}
+  {% endif %}
   {% if site.telegram_username %}
     {% capture link %}https://telegram.me/{{ site.telegram_username }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
