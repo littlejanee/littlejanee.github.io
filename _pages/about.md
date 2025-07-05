@@ -22,7 +22,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-\[**current**\] I am a postdoc at [Stanford HAI](https://hai.stanford.edu/people/jane-e) in Computer Science, mentored by my PhD advisor [James Landay](https://www.landay.org/), and an Adjunct Professor at NUS as an affiliate with the [Smart Systems Institute](https://ssi.nus.edu.sg/).
+\[**current**\] I am a postdoc at [Stanford HAI](https://hai.stanford.edu/people/jane-e) in Computer Science, mentored by my PhD advisor [James Landay](https://www.landay.org/). I am also an Adjunct Assistant Professor in CS at NUS and an affiliate with the [Smart Systems Institute](https://ssi.nus.edu.sg/).
 
 \[**next**\] I will be starting at [NUS](https://www.comp.nus.edu.sg) as an Assistant Professor in Computer Science in Fall 2025 and am [recruiting PhD students](https://www.comp.nus.edu.sg/programmes/pg/phdcs/) in the upcoming year (**please reach out if you might be interested**)!
 
