@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: >
   <p>stanford hai postdoc, [incoming] nus assistant professor in cs
-  <br \>she/her · ejane [at] stanford.edu · <a href="https://ejane.me/" target="_blank">ejane.me</a> · <a href="assets/pdf/janee_cv.pdf" target="_blank">cv</a></p>
+  <br \>she/her · ejane [at] stanford.edu · <a href="https://ejane.me/" target="_blank">ejane.me</a> · <a href="assets/pdf/janee_cv_nus.pdf" target="_blank">cv</a></p>
 subsubtitle: >
   <p>materials from my job search (2023–2024):
   <br /><a href="assets/pdf/janee_research.pdf" target="_blank">research</a> · <a href="assets/pdf/janee_teaching.pdf" target="_blank">teaching</a> · <a href="assets/pdf/janee_diversity.pdf" target="_blank">diversity</a> · <a href="assets/pdf/janee_cv_job.pdf" target="_blank">cv</a></p>
@@ -26,7 +26,7 @@ social: false # includes social icons at the bottom of the page
 
 \[**next**\] I will be starting at [NUS](https://www.comp.nus.edu.sg) as an Assistant Professor in Computer Science in Fall 2025 and am [recruiting PhD students](https://www.comp.nus.edu.sg/programmes/pg/phdcs/) in the upcoming year (**please reach out if you might be interested**)!
 
-\[**past**\] I just finished a postdoc at [The Design Lab @ UCSD](https://designlab.ucsd.edu/meet-member-of-postdoctoral-fellowship-programs-debut-cohort-jane-e/) as part of the debut cohort of [UCSD CSE’s Postdoctoral Fellows Program](https://twitter.com/ucsd_cse/status/1352343609417166849), where I was mentored by [Haijun Xia](https://creativity.ucsd.edu/) and [Steven Dow](https://protolab.ucsd.edu/). Prior to that, I graduated from Stanford University with a PhD in Computer Science where I was coadvised by [James Landay](https://www.landay.org/) and [Pat Hanrahan](http://graphics.stanford.edu/~hanrahan/).
+\[**past**\] I was previously a postdoc at [The Design Lab @ UCSD](https://designlab.ucsd.edu/meet-member-of-postdoctoral-fellowship-programs-debut-cohort-jane-e/) as part of the debut cohort of [UCSD CSE’s Postdoctoral Fellows Program](https://twitter.com/ucsd_cse/status/1352343609417166849), where I was mentored by [Haijun Xia](https://creativity.ucsd.edu/) and [Steven Dow](https://protolab.ucsd.edu/). Prior to that, I graduated from Stanford University with a PhD in Computer Science where I was coadvised by [James Landay](https://www.landay.org/) and [Pat Hanrahan](http://graphics.stanford.edu/~hanrahan/).
 
 \[**research**\] My research lies primarily at the intersection of human computer interaction, computer graphics, and AI. Broadly, I'm interested in thinking about how to design computational tools that can support users in developing domain expertise, which I currently explore within the domain of creativity. My work takes inspiration from cognitive science and education theory to design computational tools that scaffold novices’ creative processes. Inspired by how expert artists have trained their eyes to "see" in a certain way, I aim to design guidance that helps novices develop their own "artistic vision"---and in doing so, support them in developing their own artistic expertise.
 

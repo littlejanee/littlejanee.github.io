@@ -6,10 +6,11 @@ title: jane l. e (鄂小简) # the website title (if blank, full name will be us
 first_name: jane
 middle_name: l.
 last_name: e
-email: je@ucsd.edu
+email: ejane@nus.edu.sg
 description: > # the ">" symbol means to ignore newlines until "footer_text:" A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   with assistance from <a href="https://rrrima.github.io" target="_blank">rima cao</a> and <a href="https://jiang.pl" target="_blank">peiling jiang</a>.
+  Profile photo by <a href="https://hofstee.me" target="_blank">teguh hofstee<a>.
 footer_text_2: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
