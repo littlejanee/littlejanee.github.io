@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-"Expanding Norms, Negotiating Bodies: How Artists with Disabilities Perceive and Use Creative Tools" to appear at ASSETS 2025
+<a href="https://www.miriam-brody.com/" target="_blank">Miriam Brody</a> presenting our paper "Expanding Norms, Negotiating Bodies: How Artists with Disabilities Perceive and Use Creative Tools" at ASSETS 2025
