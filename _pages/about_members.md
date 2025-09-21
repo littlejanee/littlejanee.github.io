@@ -1,4 +1,4 @@
-\[**future lab members**\]
+### future lab members
 
 [Zifei (FeiFei) Han](https://hanzifeifei.com/index.html) (incoming NUS PhD) 
 
