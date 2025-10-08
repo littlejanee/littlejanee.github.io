@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  <p>nus assistant professor in cs
+  <p>nus assistant professor in cs · AS6-05-04
   <br \>she/her · ejane [at] nus.edu.sg · <a href="https://ejane.me/" target="_blank">ejane.me</a> · <a href="assets/pdf/janee_cv_nus.pdf" target="_blank">cv</a></p>
 subsubtitle: >
   <p>materials from my job search (2023–2024):
