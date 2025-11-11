@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /palette/
-title: palette lab
+title: palette lab 🎨
 description: welcome to our (work-in-progress) lab page :)
 nav: true
 nav_order: 7

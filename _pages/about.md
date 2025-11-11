@@ -23,7 +23,7 @@ social: false # includes social icons at the bottom of the page
 ---
  
 
-\[**current**\] I am an Assistant Professor in Computer Science at at [NUS](https://www.comp.nus.edu.sg) and an affiliate with the [Smart Systems Institute](https://ssi.nus.edu.sg/). I am [recruiting PhD students](https://www.comp.nus.edu.sg/programmes/pg/phdcs/) to join the [palette lab](/palette/)! (**please reach out if you might be interested**)
+\[**current**\] I am an Assistant Professor in Computer Science at at [NUS](https://www.comp.nus.edu.sg) and an affiliate with the [Smart Systems Institute](https://ssi.nus.edu.sg/). I am [recruiting PhD students](https://www.comp.nus.edu.sg/programmes/pg/phdcs/) to join the [palette lab 🎨](/palette/)! (**please reach out if you might be interested**)
 
 \[**past**\] I just finished a postdoc at [Stanford HAI](https://hai.stanford.edu/people/jane-e) in Computer Science, mentored by my PhD advisor [James Landay](https://www.landay.org/). I did a previous postdoc at [The Design Lab @ UCSD](https://designlab.ucsd.edu/meet-member-of-postdoctoral-fellowship-programs-debut-cohort-jane-e/) as part of the debut cohort of [UCSD CSE’s Postdoctoral Fellows Program](https://twitter.com/ucsd_cse/status/1352343609417166849), where I was mentored by [Haijun Xia](https://creativity.ucsd.edu/) and [Steven Dow](https://protolab.ucsd.edu/). Prior to that, I graduated from Stanford University with a PhD in Computer Science where I was coadvised by [James Landay](https://www.landay.org/) and [Pat Hanrahan](http://graphics.stanford.edu/~hanrahan/).
 
