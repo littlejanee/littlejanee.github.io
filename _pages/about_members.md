@@ -2,10 +2,14 @@
 
 [Bekzat Tilekbay](https://scholar.google.com/citations?user=O4vZpsIAAAAJ&hl=en) \| KAIST PhD, coadvised with Juho Kim
 
+[Izabella (Bella) Rodrigues](https://www.izabellarodrigues.com/) \| NUS PhD
+
+[Zifei (FeiFei) Han](https://hanzifeifei.com/index.html) \| NUS PhD 
+
 &nbsp;
 
 ### future lab members
 
-[Izabella (Bella) Rodrigues](https://www.izabellarodrigues.com/) \| incoming NUS PhD
+[Xiyuan Wang](https://horanny.github.io/) \| incoming intern
 
-[Zifei (FeiFei) Han](https://hanzifeifei.com/index.html) \| incoming NUS PhD 
+[Nguyen-Truong Vinh-Thuyen](https://siacorplab.nus.edu.sg/people/nguyen-truong-vinh-thuyen/) \| incoming intern
