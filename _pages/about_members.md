@@ -12,4 +12,4 @@
 
 [Xiyuan Wang](https://horanny.github.io/) \| incoming intern
 
-[Nguyen-Truong Vinh-Thuyen](https://siacorplab.nus.edu.sg/people/nguyen-truong-vinh-thuyen/) \| incoming intern
+[Nguyen-Truong Vinh-Thuyen](https://ntvthuyen.com/) \| incoming intern
