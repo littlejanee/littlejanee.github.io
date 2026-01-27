@@ -1,0 +1,118 @@
+body {
+    font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+#container {
+    width: 100%;
+    max-width: 1657px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.title {
+	font-size: 20pt;
+	color: #505050;
+}
+
+.description {
+	display: inline-block;
+	width: 100%;
+	max-width: 800px;
+	margin-top: 20px; 
+}
+
+.nav-lnk {
+	background-color: #c6c6c6;
+	color: #505050;
+	padding: 5px;
+	border-radius: 5px;
+/*	font-size: 19pt;
+*/}
+
+.nav-lnk.active {
+	background-color: #99ffcc;
+	color: #000;
+}
+
+.block-label {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.task-block {
+	display: inline-block;
+    width: fit-content;
+    margin: 15px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.inline-imgs {
+	margin-top: 10px; 
+	width: fit-content;
+}
+
+.task-img {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.task-img img {
+	height: 180px;
+}
+
+.plabel-cont {
+	width: 80px;
+	height: 180px;
+	position: relative;            /* 1 */
+	display: inline-block;
+}
+
+.plabel {
+	font-weight: 500;
+	font-size: 18pt;
+	position: absolute;               /* 2 */
+   	top: 50%;                         /* 3 */
+   	transform: translate(-50%, -50%) 
+}
+
+.task-label {
+	font-weight: 400;
+	display: block;
+}
+
+.plabel-trialcont {
+	width: 160px;
+	height: 180px;
+	position: relative;            /* 1 */
+	display: inline-block;
+}
+
+.plabel-trial {
+	/*font-weight: 300;*/
+	/*font-size: 14pt;*/
+	position: absolute;               /* 2 */
+   	top: 50%;                         /* 3 */
+   	transform: translate(-50%, -50%) 
+}
+
+.plabel-issuescont {
+	width: 450px;
+	height: 180px;
+	position: relative;            /* 1 */
+	display: inline-block;
+}
+
+.plabel-issues {
+	/*font-weight: 300;*/
+	white-space: pre-line;
+	font-size: 10pt;
+	position: absolute;               /* 2 */
+   	top: 70%;                         /* 3 */
+   	transform: translate(-50%, -50%) 
+}
+
+.hidden {
+	display: none;
+}
