@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Project page placeholder">
+    <meta name="author" content="">
+
+    <title>VizCrit: Exploring Strategies for Displaying Computational Feedback in a Visual Design Tool</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css" rel="stylesheet">
+
+    <style type="text/css">
+      body {
+        font-weight: 300;
+        line-height: 1.5;
+        padding: 20px;
+        margin-top: 20px;
+      }
+      a {
+        color: #7978D6;
+
+        &:hover {
+          color: #7978D6;
+        }
+
+        &:visited {
+          color: #7978D6;
+        }
+      }
+      img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      h1 {
+        margin-bottom: 50px;
+      }
+      h3 {
+        margin-top: 40px;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1000px;
+      }
+      .supplemental {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      .titlerow {
+        margin-top: 80px;
+      }
+      .author {
+        text-align: center;
+      }
+      .authorname {
+        font-weight: 400;
+      }
+      .bodytext {
+        font-size: 1.3em;
+      }
+      .caption {
+        font-size: 1.1em;
+      }
+      .keyword {
+        font-weight: 500;
+      }
+      .headinglink {
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="container">
+        <nav>
+          <div class="col-sm-2 text-center">
+            <a class="active" href="#abstract">abstract</a>
+          </div>
+          <div class="col-sm-2 text-center">
+            <a href="#paper">paper</a>
+          </div>
+          <div class="col-sm-2 text-center">
+            <a href="#supplementary">supplementary</a>
+          </div>
+          <div class="col-sm-2 text-center">
+            <a href="#code">code</a>
+          </div>
+          <div class="col-sm-2 text-center">
+            <a href="#videos">video</a>
+          </div>
+          <div class="col-sm-2 text-center">
+            <a href="#bibtex">bibtex</a>
+          </div>
+        </nav>
+
+        <div class="titlerow text-center">
+          <div class="col-sm-12">
+            <h1>VizCrit: Exploring Strategies for Displaying Computational Feedback in a Visual Design Tool</h1>
+          </div>
+        </div>
+
+        <!-- Top row: 4 authors -->
+        <div class="row">
+          <div class="col-sm-3 author">
+            <p class="lead">
+              <a href="https://mingyili.me/" class="authorname" target="_blank">Mingyi Li</a><br>
+              Northeastern University
+            </p>
+          </div>
+          <div class="col-sm-3 author">
+            <p class="lead">
+              <a href="https://www.linkedin.com/in/hazel-mengyi-chen-90606a255/" class="authorname" target="_blank">Mengyi Chen</a><br>
+              University of Pennsylvania
+            </p>
+          </div>
+          <div class="col-sm-3 author">
+            <p class="lead">
+              <a href="https://www.linkedin.com/in/sarah-wu-luo/" class="authorname" target="_blank">Sarah Luo</a><br>
+              Purdue University
+            </p>
+          </div>
+          <div class="col-sm-3 author">
+            <p class="lead">
+              <a href="https://rrrima.me/" class="authorname" target="_blank">Yining Cao</a><br>
+              University of California, San Diego
+            </p>
+          </div>
+        </div>
+
+        <!-- Bottom row: 4 authors -->
+        <div class="row">
+          <div class="col-sm-3 author">
+            <p class="lead">
+              <a href="https://hci.ucsd.edu/haijunxia" class="authorname" target="_blank">Haijun Xia</a><br>
+              University of California, San Diego
+            </p>
+          </div>
+          <div class="col-sm-3 author">
+            <p class="lead">
+              <a href="https://maitraye.github.io/" class="authorname" target="_blank">Maitraye Das</a><br>
+              Northeastern University
+            </p>
+          </div>
+          <div class="col-sm-3 author">
+            <p class="lead">
+              <a href="https://spdow.ucsd.edu/" class="authorname" target="_blank">Steven P. Dow</a><br>
+              University of California, San Diego
+            </p>
+          </div>
+          <div class="col-sm-3 author">
+            <p class="lead">
+              <a href="https://ejane.me/" class="authorname" target="_blank">Jane L. E</a><br>
+              National University of Singapore
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="lead caption">
+              <!-- Teaser figure for VizCrit -->
+              <img src="vizcrit/teaser.jpg" width="100%" alt="VizCrit teaser figure:This teaser figure demonstrates VizCrit, a design feedback tool that provides textbook-like, awareness-centered, and solution-centered feedback. There are two instructor annotations on the left, which contain their hand-written sketches on designs. On the top of the two, there are straight lines dividing the canvas into different regions and numbers marking different sections of the design. This is an example of awareness-centered alignment feedback, and VizCrit approaches it by highlighting the text boxes in different colors for different alignment groups. Next to the canvas, VizCrit also provides color-coded text explanation for the on-canvas annotations. On the bottom of the two instructor's annotations, the design now shows circles, arrows asking texts to be aligned, vertical lines indicating the alignment axes, and texts 'fonts too many.' This is an example of solution-centered feedback, and VizCrit approaches it by highlighting the problematic texts in red, with green arrows pointing to the suggested alignment axis marked with dashed lines. On the right panel of VizCrit, it again contains some color-coded texts that list the problematic texts and suggested action. Under the annotation explanation text, there are two 'learn more about' options that allow users to show or hide principle information. The first 'learn more about' will show Alignment principle's definition and common issue. The second 'learn more about' will show Alignment principle's example and related actions">
+              <span class="keyword">Figure 1.</span>  We introduce VizCrit, a design feedback tool that provides three levels of actionability: static, textbook-based feedback
+              via text to awareness-centered (top) and finally solution-centered (bottom) feedback via adaptive visual annotations. To design
+              our interactive annotation interface, we aimed to better understand how instructors provide feedback (left). Informed by our
+              co-design with instructors, we designed a set of visual annotations (right) for design principles (pictured here is alignment)
+              and developed algorithms for heuristically computing these annotations. We display these visual annotations as overlays in a
+              visual design tool and study how they influence novices' design processes, learning, and creativity.
+            </p>
+          </div>
+        </div>
+
+        <div id="abstract" class="row">
+          <div class="col-sm-12">
+            <h3>Abstract</h3>
+            <p class="lead bodytext">
+              Visual design instructors often provide multi-modal feedback, mixing annotations with text. Prior theory emphasizes the importance
+of actionable feedback, the “actionability” lies on a spectrum—from
+surfacing relevant design concepts to suggesting concrete fixes.
+How might computational tools support this range? And how does
+feedback style impact novice designers' interaction with feedback,
+creativity, learning, and design quality? We introduce VizCrit, a
+system for providing computational feedback that supports the
+feedback spectrum, realized through algorithmic issue detection
+and annotation generation. In a between-subjects study (N=36),
+novices revised a design with one of three conditions: textbook-
+based, awareness-centered, or solution-centered. Solution-centered
+annotations reduced design issues, but created a mismatch be-
+tween participants' self-sense of creativity and expert assessments.
+Awareness-centered annotations encouraged self-reflection. For all
+design novices across conditions, they risked productivity-focused
+mentality. We discuss implications for AI in creativity support tools
+to help novices not only produce visual designs but also develop
+their design awareness.
+            </p>
+          </div>
+        </div>
+
+        <!-- <div id="paper">
+          <h3>Paper &nbsp;
+            <a href="assets/pdf/papers/vizcrit-paper.pdf" class="headinglink" target="_blank"> PDF</a>
+          </h3>
+        </div> -->
+
+        <div id="supplementary">
+          <h3>Supplementary Material &nbsp;
+            <a href="vizcrit/supplemental.zip" class="headinglink" download> Download All</a> | 
+            <a href="vizcrit/supplemental/user%20study%20designs/user-design-list.html" class="headinglink" target="_blank"> User Study Designs</a> 
+          </h3>
+          <p class="lead bodytext">
+            Materials included here contain co-design study materials, user evaluation materials, and user study designs that include all the participants' designs from the evaluation study.
+          </p>
+        </div>
+
+        <div id="code">
+          <h3>Code &nbsp; 
+            <!-- Replace with your repository URL -->
+            <a href="https://github.com/mingyi09/VizCrit" class="headinglink" target="_blank"> Github</a>
+          </h3>
+        </div>
+
+        <div id="videos">
+          <h3>Video &nbsp;
+            <!-- Replace with your video URL -->
+            <a href="https://youtu.be/your_video_id" class="headinglink" target="_blank"> To be added </a> 
+          </h3>
+          <br/>
+          <style>
+            .embed-container { 
+              position: relative; 
+              padding-bottom: 56.25%; 
+              height: 0; 
+              overflow: hidden; 
+              max-width: 100%; 
+              border: 1px solid #000000;
+            } 
+            .embed-container iframe, 
+            .embed-container object, 
+            .embed-container embed { 
+              position: absolute; 
+              top: 0; 
+              left: 0; 
+              width: 100%; 
+              height: 100%; 
+            }
+          </style>
+          <div class='embed-container'>
+            <iframe 
+              src="https://www.youtube.com/embed/your_video_id" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+        <div id="bibtex">
+          <h3>Bibtex</h3>
+          <pre class="id">
+
+          </pre>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>-->
+  </body>
+</html>
+
