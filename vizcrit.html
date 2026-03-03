@@ -167,12 +167,13 @@
             <p class="lead caption">
               <!-- Teaser figure for VizCrit -->
               <img src="vizcrit/teaser.jpg" width="100%" alt="VizCrit teaser figure:This teaser figure demonstrates VizCrit, a design feedback tool that provides textbook-like, awareness-centered, and solution-centered feedback. There are two instructor annotations on the left, which contain their hand-written sketches on designs. On the top of the two, there are straight lines dividing the canvas into different regions and numbers marking different sections of the design. This is an example of awareness-centered alignment feedback, and VizCrit approaches it by highlighting the text boxes in different colors for different alignment groups. Next to the canvas, VizCrit also provides color-coded text explanation for the on-canvas annotations. On the bottom of the two instructor's annotations, the design now shows circles, arrows asking texts to be aligned, vertical lines indicating the alignment axes, and texts 'fonts too many.' This is an example of solution-centered feedback, and VizCrit approaches it by highlighting the problematic texts in red, with green arrows pointing to the suggested alignment axis marked with dashed lines. On the right panel of VizCrit, it again contains some color-coded texts that list the problematic texts and suggested action. Under the annotation explanation text, there are two 'learn more about' options that allow users to show or hide principle information. The first 'learn more about' will show Alignment principle's definition and common issue. The second 'learn more about' will show Alignment principle's example and related actions">
-              <span class="keyword">Figure 1.</span>  We introduce VizCrit, a design feedback tool that provides three levels of actionability: static, textbook-based feedback
-              via text to awareness-centered (top) and finally solution-centered (bottom) feedback via adaptive visual annotations. To design
-              our interactive annotation interface, we aimed to better understand how instructors provide feedback (left). Informed by our
-              co-design with instructors, we designed a set of visual annotations (right) for design principles (pictured here is alignment)
-              and developed algorithms for heuristically computing these annotations. We display these visual annotations as overlays in a
-              visual design tool and study how they influence novices' design processes, learning, and creativity.
+              <span class="keyword">Figure 1.</span>  We introduce VizCrit, a design feedback tool that offers feedback with three levels of actionability: textbook-based
+              feedback as static text, and awareness-centered and solution-centered feedback as adaptive visual annotations. To design the
+              interactive annotations, we observed how expert designers and instructors provide situated feedback (left), then collaboratively
+              co-designed a set of visual annotations (right) for four core design principles (Alignment is shown here). For each annotation,
+              we designed algorithms for heuristically computing the annotations to be displayed as overlays on the visual design (including
+              issue detection for solution-centered feedback). The user evaluation with novices explores how different actionability in
+              feedback influences novices' process-related behaviors, learning of principles, perceptions of creativity, and overall outcomes.
             </p>
           </div>
         </div>
@@ -181,33 +182,28 @@
           <div class="col-sm-12">
             <h3>Abstract</h3>
             <p class="lead bodytext">
-              Visual design instructors often provide multi-modal feedback, mixing annotations with text. Prior theory emphasizes the importance
-of actionable feedback, the “actionability” lies on a spectrum—from
-surfacing relevant design concepts to suggesting concrete fixes.
-How might computational tools support this range? And how does
-feedback style impact novice designers' interaction with feedback,
-creativity, learning, and design quality? We introduce VizCrit, a
-system for providing computational feedback that supports the
-feedback spectrum, realized through algorithmic issue detection
-and annotation generation. In a between-subjects study (N=36),
-novices revised a design with one of three conditions: textbook-
-based, awareness-centered, or solution-centered. Solution-centered
-annotations reduced design issues, but created a mismatch be-
-tween participants' self-sense of creativity and expert assessments.
-Awareness-centered annotations encouraged self-reflection. For all
-design novices across conditions, they risked productivity-focused
-mentality. We discuss implications for AI in creativity support tools
-to help novices not only produce visual designs but also develop
-their design awareness.
+              Visual design instructors often provide multi-modal feedback, mixing annotations with text. Prior theory emphasizes
+              the importance of actionable feedback, where “actionability” lies on a spectrum—from surfacing relevant
+              concepts to suggesting concrete fixes. How might creativity tools implement annotations that support such feedback,
+              and how does the actionability of feedback impact novices' process-related behaviors, perceptions of creativity,
+              learning of design principles, and overall outcomes? 
+              We introduce VizCrit, a system for providing computational
+              feedback that supports the actionability spectrum, realized through algorithmic issue detection and visual annotation
+              generation. In a between-subjects study (N=36), novices revised a design under one of three conditions:
+              textbook-based, awareness-centered, or solution-centered feedback. We found that solution-centered feedback led to
+              fewer design issues and higher self-perceived creativity compared with textbook-based feedback, although expert
+              ratings on creativity showed no significant differences. We discuss the implications for AI in Creativity Support
+              Tools, including the potential of calibrating feedback actionability to help novices balance productivity with
+              learning, growth, and developing design awareness.
             </p>
           </div>
         </div>
 
-        <!-- <div id="paper">
+        <div id="paper">
           <h3>Paper &nbsp;
-            <a href="assets/pdf/papers/vizcrit-paper.pdf" class="headinglink" target="_blank"> PDF</a>
+            <a href="assets/pdf/papers/chi2026_vizcrit.pdf" class="headinglink" target="_blank"> PDF</a>
           </h3>
-        </div> -->
+        </div>
 
         <div id="supplementary">
           <h3>Supplementary Material &nbsp;
@@ -229,7 +225,7 @@ their design awareness.
         <div id="videos">
           <h3>Video &nbsp;
             <!-- Replace with your video URL -->
-            <a href="https://youtu.be/your_video_id" class="headinglink" target="_blank"> To be added </a> 
+            <a href="https://www.youtube.com/watch?v=R40gaLnzhEc" class="headinglink" target="_blank">YouTube</a> 
           </h3>
           <br/>
           <style>
@@ -253,7 +249,7 @@ their design awareness.
           </style>
           <div class='embed-container'>
             <iframe 
-              src="https://www.youtube.com/embed/your_video_id" 
+              src="https://www.youtube.com/watch?v=R40gaLnzhEc" 
               frameborder="0" 
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
               allowfullscreen>
@@ -264,7 +260,18 @@ their design awareness.
         <div id="bibtex">
           <h3>Bibtex</h3>
           <pre class="id">
-
+@inproceedings{li2026vizcrit,
+  author = {Li, Mingyi and Chen, Mengyi and Luo, Sarah and Cao, Yining and Xia, Haijun and Das, Maitraye and Dow, Steven P. and E, Jane L.},
+  title = {VizCrit: Exploring Strategies for Displaying Computational Feedback in a Visual Design Tool},
+  year = {2026},
+  isbn = {9798400722783},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},
+  numpages = {23},
+  location = {Barcelona, Spain},
+  series = {CHI'26}
+}
           </pre>
         </div>
     </div>
