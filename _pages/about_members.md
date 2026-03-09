@@ -6,10 +6,10 @@
 
 [Zifei (FeiFei) Han](https://hanzifeifei.com/index.html) \| NUS PhD 
 
+[Xiyuan Wang](https://horanny.github.io/) \| intern, incoming NUS PhD
+
 &nbsp;
 
 ### future lab members
-
-[Xiyuan Wang](https://horanny.github.io/) \| incoming intern
 
 [Nguyen-Truong Vinh-Thuyen](https://ntvthuyen.com/) \| incoming intern
