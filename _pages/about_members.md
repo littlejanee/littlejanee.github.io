@@ -18,7 +18,11 @@
 
 [Sixing (Jonathan) Tao](https://sixingtao.site/) \| incoming intern
 
-[Jiayu (Yuki) Yin](https://scholar.google.com/citations?user=AjLs4f4AAAAJ&hl=en) \| incoming visiting PhD
+[Jiayu (Yuki) Yin](https://jiayuyy.github.io/Yuki/) \| incoming visiting PhD, advised by David Lee
+
+[Danilo Symonette](https://profiles.stanford.edu/danilo-symonette) \| incoming visiting PhD, advised by James Landay
+
+[Gabriella Ugwonali](https://micheleamaka.com/) \| incoming intern
 
 &nbsp;
 
