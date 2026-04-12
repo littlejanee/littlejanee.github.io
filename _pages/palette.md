@@ -3,7 +3,7 @@ layout: profiles
 permalink: /palette/
 title: palette lab
 description: welcome to our (work-in-progress) lab page :)
-nav: true
+nav: false
 nav_order: 7
 
 profiles:
