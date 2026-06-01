@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my postdoc at <a href="https://hai.stanford.edu/people/jane-e" target="_blank">Stanford HAI</a> with <a href="https://www.landay.org" target="_blank">James Landay</a>
+Started my postdoc at <a href="https://hai.stanford.edu/news/stanford-hai-welcomes-2024-25-graduate-and-postdoc-fellows" target="_blank">Stanford HAI</a> with <a href="https://www.landay.org" target="_blank">James Landay</a>
