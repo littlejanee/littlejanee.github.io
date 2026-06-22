@@ -25,7 +25,7 @@ social: false # includes social icons at the bottom of the page
 
 \[**current**\] I am an Assistant Professor in Computer Science at [NUS](https://www.comp.nus.edu.sg) and an affiliate with the [Smart Systems Institute](https://ssi.nus.edu.sg/), where I lead [palette lab 🎨](https://palettelab-nus.github.io/PaletteLab/)! (please see lab website for more information if you might be interested in joining us)
 
-\[**phd advisees**\] [Bekzat Tilekbay](https://scholar.google.com/citations?user=O4vZpsIAAAAJ&hl=en) · [Izabella (Bella) Rodrigues](https://www.izabellarodrigues.com/) · [Zifei (FeiFei) Han](https://hanzifeifei.com/index.html) · [Xiyuan Wang](https://horanny.github.io/)
+\[**phd advisees**\] [Bekzat Tilekbay](https://scholar.google.com/citations?user=O4vZpsIAAAAJ&hl=en) · [Bella Rodrigues](https://www.izabellarodrigues.com/) · [FeiFei Han](https://hanzifeifei.com/index.html) · [Kevin Lam](https://lamfuyuan.com/) · [Jin Chumpu](https://romrawinjp.github.io/) · [Xiyuan Wang](https://horanny.github.io/)
 
 \[**past**\] I just finished a postdoc at [Stanford HAI](https://hai.stanford.edu/people/jane-e) in Computer Science, mentored by my PhD advisor [James Landay](https://www.landay.org/). I did a previous postdoc at [The Design Lab @ UCSD](https://designlab.ucsd.edu/meet-member-of-postdoctoral-fellowship-programs-debut-cohort-jane-e/) as part of the debut cohort of [UCSD CSE’s Postdoctoral Fellows Program](https://twitter.com/ucsd_cse/status/1352343609417166849), where I was mentored by [Haijun Xia](https://creativity.ucsd.edu/) and [Steven Dow](https://protolab.ucsd.edu/). Prior to that, I graduated from Stanford University with a PhD in Computer Science where I was coadvised by [James Landay](https://www.landay.org/) and [Pat Hanrahan](http://graphics.stanford.edu/~hanrahan/).
 
@@ -40,7 +40,7 @@ Broadly I am interested in using computation to provide scaffolding that can enc
 I graduated in June 2012 from Princeton University with a Bachelors in Computer Science and a Certificate in Applied and Computational Mathematics. After college, I worked as a Software Development Engineer for two years on the Photos and Videos (Apps for Creative Expressions) team at Microsoft. -->
 
 
-\[**other**\] On the side, I am a dancer 🩰, a photo enthusiast 📷, a foodie 🍛, and a lover of fitness 🤸🏻‍♀️.
+\[**other**\] On the side, I am a dancer 🩰, a photo enthusiast 📷, a foodie 🍛, and a lover of fitness 🤸🏻‍♀️. I also love going to craft fairs to discover the work of local artists and designers.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
