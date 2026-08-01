@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  <p>nus assistant professor in cs · AS6-05-04
+  <p>nus assistant professor in cs · I4 #06-01 (<a href="https://ssi.nus.edu.sg/" target="_blank">SSI</a>)
   <br \>she/her · ejane [at] nus.edu.sg · <a href="https://ejane.me/" target="_blank">ejane.me</a> · <a href="assets/pdf/janee_cv_nus.pdf" target="_blank">cv</a></p>
 subsubtitle: >
   <p>materials from my job search (2023–2024):
@@ -23,9 +23,10 @@ social: false # includes social icons at the bottom of the page
 ---
  
 
-\[**current**\] I am an Assistant Professor in Computer Science at [NUS](https://www.comp.nus.edu.sg) and an affiliate with the [Smart Systems Institute](https://ssi.nus.edu.sg/), where I lead [palette lab 🎨](https://palettelab-nus.github.io/PaletteLab/)! (please see lab website for more information if you might be interested in joining us)
+\[**current**\] I am an Assistant Professor in Computer Science at [NUS](https://www.comp.nus.edu.sg) where I lead [palette lab 🎨](https://palettelab-nus.github.io/PaletteLab/)! (please see lab website for more information if you might be interested in joining us)
 
-\[**phd advisees**\] [Bekzat Tilekbay](https://scholar.google.com/citations?user=O4vZpsIAAAAJ&hl=en) · [Bella Rodrigues](https://www.izabellarodrigues.com/) · [FeiFei Han](https://hanzifeifei.com/index.html) · [Kevin Lam](https://lamfuyuan.com/) · [Jin Chumpu](https://romrawinjp.github.io/) · [Xiyuan Wang](https://horanny.github.io/)
+\[**phd advisees**\] [Kevin Lam](https://lamfuyuan.com/) · [Jin Chumpu](https://romrawinjp.github.io/) · [Bekzat Tilekbay](https://scholar.google.com/citations?user=O4vZpsIAAAAJ&hl=en) · [Bella Rodrigues](https://www.izabellarodrigues.com/) · [FeiFei Han](https://hanzifeifei.com/index.html) · [Xiyuan Wang](https://horanny.github.io/) · [Thuyen Nguyen-Truong](https://ntvthuyen.com/)
+
 
 \[**past**\] I just finished a postdoc at [Stanford HAI](https://hai.stanford.edu/people/jane-e) in Computer Science, mentored by my PhD advisor [James Landay](https://www.landay.org/). I did a previous postdoc at [The Design Lab @ UCSD](https://designlab.ucsd.edu/meet-member-of-postdoctoral-fellowship-programs-debut-cohort-jane-e/) as part of the debut cohort of [UCSD CSE’s Postdoctoral Fellows Program](https://twitter.com/ucsd_cse/status/1352343609417166849), where I was mentored by [Haijun Xia](https://creativity.ucsd.edu/) and [Steven Dow](https://protolab.ucsd.edu/). Prior to that, I graduated from Stanford University with a PhD in Computer Science where I was coadvised by [James Landay](https://www.landay.org/) and [Pat Hanrahan](http://graphics.stanford.edu/~hanrahan/).
 
