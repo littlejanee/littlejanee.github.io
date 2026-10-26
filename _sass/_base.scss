@@ -55,7 +55,13 @@ table {
   }
 }
 
-a, strong,
+strong {
+  color: var(--global-theme-color);
+  background-color: var(--global-light-color);
+  margin-right: 8px !important;
+}
+
+a,
 table.table a {
   color: var(--global-theme-color);
 
