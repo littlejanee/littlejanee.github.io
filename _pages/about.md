@@ -41,7 +41,7 @@ Broadly I am interested in using computation to provide scaffolding that can enc
 I graduated in June 2012 from Princeton University with a Bachelors in Computer Science and a Certificate in Applied and Computational Mathematics. After college, I worked as a Software Development Engineer for two years on the Photos and Videos (Apps for Creative Expressions) team at Microsoft. -->
 
 
-**other** On the side, I am a dancer 🩰, a photo enthusiast 📷, a foodie 🍛, and a lover of fitness 🤸🏻‍♀️. I also love going to craft fairs to discover the work of local artists and designers.
+**other** On the side, I am a dancer 🩰, a photo enthusiast 📷, a foodie 🍛, and a lover of fitness 🤸🏻‍♀️. I also love going to craft fairs to discover the work of local artists and designers 🖼️.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
